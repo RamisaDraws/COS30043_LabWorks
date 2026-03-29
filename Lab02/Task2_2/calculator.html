@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Template that uses Bootstrap</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap -->
+    <link href="framework/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        body {
+            background-color: #f0f0f0;
+            padding: 30px;
+        }
+
+        .calculator {
+            background-color: #1c1c1e;
+            border-radius: 16px;
+            padding: 16px;
+            width: 280px;
+            margin: 0 auto;
+            box-shadow: 0 8px 8px rgba(0, 0, 0, 0.4);
+        }
+
+        /* Display */
+        .display {
+            background-color: #1c1c1e;
+            color: #ffffff;
+            font-size: 2.5rem;
+            text-align: right;
+            padding: 8px 12px 4px;
+            border-radius: 8px;
+            margin-bottom: 8px;
+            min-height: 60px;
+            word-break: break-all;
+        }
+
+        /* All buttons share base style */
+        .btn-calc {
+            width: 100%;
+            border: none;
+            border-radius: 25%;
+            font-size: 1.2rem;
+            font-weight: 500;
+            padding: 14px 0;
+            margin-bottom: 8px;
+            cursor: pointer;
+        }
+
+        /* Memory row */
+        .btn-memory {
+            background-color: #3a3a3c;
+            color: #ffffff;
+            font-size: 0.95rem;
+            border-radius: 8px;
+        }
+        .btn-memory:hover { background-color: #555558; color: #fff; }
+
+        /* Function keys (AC, +/-, %) */
+        .btn-function {
+            background-color: #636366;
+            color: #ffffff;
+        }
+        .btn-function:hover { background-color: #808084; color: #fff; }
+
+        /* Operator keys */
+        .btn-operator {
+            background-color: #ff9f0a;
+            color: #ffffff;
+        }
+        .btn-operator:hover { background-color: #ffb84d; color: #fff; }
+
+        /* Number keys */
+        .btn-number {
+            background-color: #3a3a3c;
+            color: #ffffff;
+        }
+        .btn-number:hover { background-color: #555558; color: #fff; }
+
+        
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    
+
+    <!-- Calculator widget row -->
+    <div class="row justify-content-center">
+        <div class="col-sm-8 col-md-5 col-lg-4">
+
+            <div class="calculator">
+
+                <!-- Display -->
+                <div class="row">
+                    <div class="col-12">
+                        <div class="display" id="display">0</div>
+                    </div>
+                </div>
+
+                <!-- Memory function row: mc  m+  m-  mr -->
+                <div class="row">
+                    <div class="col-3">
+                        <button class="btn-calc btn-memory">mc</button>
+                    </div>
+                    <div class="col-3">
+                        <button class="btn-calc btn-memory">m+</button>
+                    </div>
+                    <div class="col-3">
+                        <button class="btn-calc btn-memory">m-</button>
+                    </div>
+                    <div class="col-3">
+                        <button class="btn-calc btn-memory">mr</button>
+                    </div>
+                </div>
+
+                <!-- Function / operator row: AC  √x  %  ÷ -->
+                <div class="row">
+                    <div class="col-3">
+                        <button class="btn-calc btn-function">AC</button>
+                    </div>
+                    <div class="col-3">
+                        <button class="btn-calc btn-function">&#x221A;x</button>
+                    </div>
+                    <div class="col-3">
+                        <button class="btn-calc btn-function">%</button>
+                    </div>
+                    <div class="col-3">
+                        <button class="btn-calc btn-operator">&#247;</button>
+                    </div>
+                </div>
+
+                <!-- Numeric row: 7  8  9  × -->
+                <div class="row">
+                    <div class="col-3">
+                        <button class="btn-calc btn-number">7</button>
+                    </div>
+                    <div class="col-3">
+                        <button class="btn-calc btn-number">8</button>
+                    </div>
+                    <div class="col-3">
+                        <button class="btn-calc btn-number">9</button>
+                    </div>
+                    <div class="col-3">
+                        <button class="btn-calc btn-operator">×</button>
+                    </div>
+                </div>
+
+                <!-- Numeric row: 4  5  6  − -->
+                <div class="row">
+                    <div class="col-3">
+                        <button class="btn-calc btn-number">4</button>
+                    </div>
+                    <div class="col-3">
+                        <button class="btn-calc btn-number">5</button>
+                    </div>
+                    <div class="col-3">
+                        <button class="btn-calc btn-number">6</button>
+                    </div>
+                    <div class="col-3">
+                        <button class="btn-calc btn-operator">-</button>
+                    </div>
+                </div>
+
+                <!-- Numeric row: 1  2  3  + -->
+                <div class="row">
+                    <div class="col-3">
+                        <button class="btn-calc btn-number">1</button>
+                    </div>
+                    <div class="col-3">
+                        <button class="btn-calc btn-number">2</button>
+                    </div>
+                    <div class="col-3">
+                        <button class="btn-calc btn-number">3</button>
+                    </div>
+                    <div class="col-3">
+                        <button class="btn-calc btn-operator">+</button>
+                    </div>
+                </div>
+
+                <!-- Bottom row: 0  . +/- = -->
+                <div class="row">
+                    <div class="col-3">
+                        <button class="btn-calc btn-number">0</button>
+                    </div>
+                    <div class="col-3">
+                        <button class="btn-calc btn-number">.</button>
+                    </div>
+                    <div class="col-3">
+                        <button class="btn-calc btn-number"> +/- </button>
+                    </div>
+                    <div class="col-3">
+                        <button class="btn-calc btn-operator">=</button>
+                    </div>
+                </div>
+
+            </div><!-- /.calculator -->
+
+        </div>
+    </div><!-- /.row calculator -->
+
+</div><!-- /.container -->
+
+<!-- Bootstrap JS -->
+<script src="framework/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

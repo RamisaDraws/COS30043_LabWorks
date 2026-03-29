@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Corporate Template | TechCorp</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap-->
+    <link href="framework/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+
+
+<!-- 1a: Navbar — fixed on top, always visible above everything -->
+<nav class="container-fluid bg-dark text-white border-bottom border-secondary"
+     style="position: sticky; top: 0; z-index: 100;">
+    <div class="row align-items-center py-2">
+        <div class="col-12 col-md-3">
+            <p class="mb-0 fw-bold fs-4">[Ramisa_Draws_logo]</p>
+        </div>
+        <div class="col-12 col-md-9 d-flex justify-content-end align-items-center">
+            <a href="#" class="text-white me-3">Home</a>
+            <a href="#" class="text-white me-3">Products</a>
+            <a href="#" class="text-white me-3">Orders</a>
+            <a href="#" class="text-white me-5">Cart</a>
+            <a href="#" class="text-white">Login</a>
+        </div>
+        <div class="col-12 col-md-3 text-md-end">
+            
+        </div>
+    </div>
+</nav>
+
+<!-- 1b: Hero section — video fills entire background, content floats on top -->
+<div style="
+    position: relative;
+    min-height: 500px;
+    overflow: hidden;
+    background-color: #212529;
+    display: flex;
+    align-items: center;
+">
+
+    <!-- Full-width background video -->
+    <video
+        autoplay
+        muted
+        loop
+        playsinline
+        style="
+            position: absolute;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            object-fit: cover;
+            z-index: 0;
+            mix-blend-mode: screen;
+        ">
+        <source src="vid1.mp4" type="video/mp4" />
+    </video>
+
+    <!-- Fade-out gradient at the bottom -->
+    <div style="
+        position: absolute;
+        bottom: 0; left: 0;
+        width: 100%; height: 150px;
+        background: linear-gradient(to bottom, transparent, #212529);
+        z-index: 1;
+    "></div>
+
+    <!-- Hero text content — floats in front of video -->
+    <div class="container text-white py-5" style="position: relative; z-index: 2;">
+        <div class="row">
+            <div class="col-12 col-md-6 py-4">
+                <!-- Box 1: Hero headline -->
+                <div class="p-3 mb-3">
+                    <h1>Welcome to Ramisa_Draws</h1>
+                    <p>Your go to artist for genuine art prints and tutorials</p>
+                </div>
+                <!-- Box 2: Hero CTA buttons -->
+                <div class="p-3">
+                    <a href="#" class="btn btn-primary me-2">View Products</a>
+                    <a href="#" class="btn btn-outline-light">Learn More</a>
+                </div>
+            </div>
+            <!-- Box 3: right side-->
+            <div class="col-12 col-md-6 py-4 d-flex align-items-center justify-content-center">
+                <div id="parallax-circle" style="min-height:200px; border-radius: 50%;overflow: hidden; will-change: transform;">
+                    <video
+                        autoplay
+                        muted
+                        loop
+                        playsinline
+                        style="
+                        
+                            
+                            width: 100%; height: 100%;
+                            object-fit: cover;
+                            display: block;
+                            mix-blend-mode: screen;
+                        ">
+                        <source src="21feb2026.mp4" type="video/mp4" />
+                    </video>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div><!-- /hero -->
+
+
+<!-- SECTION 2: MAIN PRODUCT HIGHLIGHT-->
+
+<div class="container my-5">
+
+    <div class="row mb-3">
+        <div class="col-12">
+            <h2 class="text-center">Featured Product</h2>
+            <p class="text-center text-muted">Our most popular product this season.</p>
+        </div>
+    </div>
+
+    <div class="row align-items-stretch">
+        <!-- Box 4: Product image -->
+        <div class="col-12 col-md-5">
+            <div class="border p-3 text-center bg-light" style="min-height:220px;">
+                <img src="nari26.jpg" style="
+                        
+                            
+                            width: 100%; height: 100%;
+                            object-fit: cover;
+                            display: block;
+                            
+                        "alt="">
+                
+            </div>
+        </div>
+        <!-- Box 5: Product title and description -->
+        <div class="col-12 col-md-4">
+            <div class="border p-3 h-100">
+                <h4>Women's Day Special</h4>
+                <p>Especially crafted and designed for March 8th, referencing the spirit of empowerment and celebration, and, the Bengali culture.</p>
+                <ul>
+                    <li>High-quality prints</li>
+                    <li>Custom layouts</li>
+                    <li>Color themes</li>
+                    <li>Fast Shipping</li>
+                    <li>Full artwork tutorial</li>
+                </ul>
+            </div>
+        </div>
+        <!-- Box 6: Pricing / CTA -->
+        <div class="col-12 col-md-3">
+            <div class="border p-3 text-center" style="min-height:220px;">
+                <h5>Starting at</h5>
+                <p class="display-6">$49<small class="fs-6">/piece</small></p>
+                <a href="#" class="btn btn-success w-100 mb-2">Buy Now</a>
+                <a href="#" class="btn btn-outline-secondary w-100">Add to Cart</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<!-- SECTION 3: PRODUCT FEATURES  Boxes: 3 feature cards side by side-->
+
+<div class="container-fluid bg-light py-5">
+    <div class="container">
+
+        <div class="row mb-3">
+            <div class="col-12">
+                <h2 class="text-center">Key Features</h2>
+                <p class="text-center text-muted">Everything you need to know about the product</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Box 7: Feature 1 -->
+            <div class="col-12 col-md-4 mb-3">
+                <div class="border p-4 bg-white h-100">
+                    <div class="border p-2 mb-2 text-center bg-light">[Feature Icon 1]</div>
+                    <h5>High Resolution</h5>
+                    <p>Artwork created with the highest resolution (300 DPI) for stunning details</p>
+                </div>
+            </div>
+            <!-- Box 8: Feature 2 -->
+            <div class="col-12 col-md-4 mb-3">
+                <div class="border p-4 bg-white h-100">
+                    <div class="border p-2 mb-2 text-center bg-light">[Feature Icon 2]</div>
+                    <h5>Copy Righted</h5>
+                    <p>All artwork is professionally copyrighted to ensure legal use and protection.</p>
+                </div>
+            </div>
+            <!-- Box 9: Feature 3 -->
+            <div class="col-12 col-md-4 mb-3">
+                <div class="border p-4 bg-white h-100">
+                    <div class="border p-2 mb-2 text-center bg-light">[Feature Icon 3]</div>
+                    <h5>Easy Follow-along</h5>
+                    <p>Entire process of the artwork creation is easy to follow and implement.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Second features row -->
+        <div class="row">
+            <!-- Box 10: Feature 4 -->
+            <div class="col-12 col-md-4 mb-3">
+                <div class="border p-4 bg-white h-100">
+                    <div class="border p-2 mb-2 text-center bg-light">[Feature Icon 4]</div>
+                    <h5>Key Concepts</h5>
+                    <p>Not just a recorded process, but a comprehensive guide to understanding the core principles.</p>
+                </div>
+            </div>
+            <!-- Box 11: Feature 5 -->
+            <div class="col-12 col-md-4 mb-3">
+                <div class="border p-4 bg-white h-100">
+                    <div class="border p-2 mb-2 text-center bg-light">[Feature Icon 5]</div>
+                    <h5>Artist Support</h5>
+                    <p>Bundle includes access to our community of professional artists for guidance and feedback.</p>
+                </div>
+            </div>
+            <!-- Box 12: Feature 6 -->
+            <div class="col-12 col-md-4 mb-3">
+                <div class="border p-4 bg-white h-100">
+                    <div class="border p-2 mb-2 text-center bg-light">[Feature Icon 6]</div>
+                    <h5>Complementary Brushes</h5>
+                    <p>Free set of Brush packs included with your purchase.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<!-- SECTION 4: COMPANY PROFILE-->
+
+<div class="container my-5">
+
+    <div class="row mb-3">
+        <div class="col-12">
+            <h2 class="text-center">About Us</h2>
+        </div>
+    </div>
+
+    <!-- Box 13: Company description -->
+    <div class="row mb-4">
+        <div class="col-12 col-md-8 offset-md-2">
+            <div class="p-4 text-center">
+                <p> Ramisa_Draws is a leading provider of digital art solutions, dedicated to empowering artists with the tools and knowledge they need to create stunning artwork. Our mission is to make professional-grade art creation accessible to everyone, regardless of their skill level.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- skills row -->
+    <div class="row">
+        <!-- Box 14: Team member 1 -->
+        <div class="col-12 col-sm-6 col-md-3 mb-3">
+            <div class="border p-3 text-center">
+                <div class="border bg-light mb-2" style="height:80px;">[Photo]</div>
+                <h6>Clip Studio Paint</h6>
+                <p class="text-muted small">Main illustraton tool</p>
+            </div>
+        </div>
+        <!-- Box 15: skill 2 -->
+        <div class="col-12 col-sm-6 col-md-3 mb-3">
+            <div class="border p-3 text-center">
+                <div class="border bg-light mb-2" style="height:80px;">[Photo]</div>
+                <h6>Ibis Paint X</h6>
+                <p class="text-muted small">Secondary painting tool</p>
+            </div>
+        </div>
+        <!-- Box 16: skill 3 -->
+        <div class="col-12 col-sm-6 col-md-3 mb-3">
+            <div class="border p-3 text-center">
+                <div class="border bg-light mb-2" style="height:80px;">[Photo]</div>
+                <h6>Photoshop</h6>
+                <p class="text-muted small">Image editing software</p>
+            </div>
+        </div>
+        <!-- Box 17: skill 4 -->
+        <div class="col-12 col-sm-6 col-md-3 mb-3">
+            <div class="border p-3 text-center">
+                <div class="border bg-light mb-2" style="height:80px;">[Photo]</div>
+                <h6>Blender</h6>
+                <p class="text-muted small">3D assets creation</p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<!-- SECTION 5: FOOTER BANNER-->
+
+<div class="container-fluid bg-dark text-white pt-4 pb-2">
+    <div class="container">
+
+        <div class="row mb-3">
+            <!-- Box 18: Company info -->
+            <div class="col-12 col-md-4 mb-3">
+                <div class="p-3">
+                    <h6>Ramisa_Draws</h6>
+                    <p class="small">Swinburne University of Technology<br />Sarawak 93350<br /><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="93fafdf5fcd3e7f6f0fbf0fce1e3bdf0fcfe">[email&#160;protected]</a></p>
+                </div>
+            </div>
+            <!-- Box 19: Quick links -->
+            <div class="col-12 col-md-4 mb-3">
+                <div class="p-3">
+                    <h6>Quick Links</h6>
+                    <ul class="list-unstyled small">
+                        <li><a href="#" class="text-white">Home</a></li>
+                        <li><a href="#" class="text-white">Products</a></li>
+                        <li><a href="#" class="text-white">About</a></li>
+                        <li><a href="#" class="text-white">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Box 20: Social media -->
+            <div class="col-12 col-md-4 mb-3">
+                <div class="p-3">
+                    <h6>Social Media</h6>
+                    <ul class="list-unstyled small">
+                        <li><a href="#" class="text-white">Facebook</a></li>
+                        <li><a href="#" class="text-white">Twitter</a></li>
+                        <li><a href="#" class="text-white">LinkedIn</a></li>
+                        <li><a href="#" class="text-white">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Copyright row -->
+        <div class="row border-top border-secondary pt-2">
+            <div class="col-12 text-center">
+                <p class="small text-muted mb-0">&copy; 2026 Ramisa_Draws. All rights reserved.</p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<!-- Bootstrap javascript plug-ins -->
+        <script src="framework/js/bootstrap.bundle.min.js"></script>
+        <script>
+            const circle = document.getElementById('parallax-circle');
+            window.addEventListener('scroll', ()=>{
+                const offset = window.scrollY*0.4;
+                circle.style.transform = `translateY(${offset}px)`;
+            });
+        </script>
+    </body>
+</html>
