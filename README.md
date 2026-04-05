@@ -87,3 +87,15 @@ Registration App: Cloud Service, a Vue.js registration form that collects login 
 ![Task 2](Lab03/Task3_4/Screenshot%202026-03-29%20154248.png)
 
 ---
+
+## Lab 4
+
+### Task 1
+**Description:**
+A Vue.js number guesser. Allow user to guess number between 1 to 100. If guessed number is lower than the actual number, app prompts to guess higher, and vice versa. User can Give Up and see the actual number. User can also start over the game.
+
+**Screenshot:**
+![Task1](Lab04/Task4_1/1.png)
+![Task11](Lab04/Task4_1/2.png)
+![Task12](Lab04/Task4_1/3.png)
+![Task13](Lab04/Task4_1/4.png)
