@@ -99,3 +99,35 @@ A Vue.js number guesser. Allow user to guess number between 1 to 100. If guessed
 ![Task11](Lab04/Task4_1/2.png)
 ![Task12](Lab04/Task4_1/3.png)
 ![Task13](Lab04/Task4_1/4.png)
+
+---
+
+## Lab 5
+
+### Task 1
+**Description:**
+A status posting app. You type a message, click Post, and it appears in a timeline. Each post has a Delete button. New posts go to the top. Teaches basic Vue components with methods (add/remove) and v-for.
+
+**Screenshot:**
+![Task1](Lab05/Task5_1/screenshot1.png)
+![Task11](Lab05/Task5_1/screenthot2.png)
+![Task12](Lab05/Task5_1/screenshot3.png)
+
+---
+
+### Task 2
+**Description:**
+A Roman numeral converter.Enter a number (1–99) and it displays the Roman numeral equivalent.
+
+**Screenshot:**
+![Task1](Lab05/Task5_2/screenshot1.png)
+
+---
+
+### Task 4
+**Description:**
+A unit information table with "show details" links. Clicking a link shows that unit's details below the table without reloading the page. Teaches dynamic routes and Vue Router.
+
+**Screenshot:**
+![Task1](Lab05/Task5_4/screenshot1.png)
+![Task11](Lab05/Task5_4/screenshot2.png)
