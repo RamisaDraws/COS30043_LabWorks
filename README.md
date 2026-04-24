@@ -131,3 +131,17 @@ A unit information table with "show details" links. Clicking a link shows that u
 **Screenshot:**
 ![Task1](Lab05/Task5_4/screenshot1.png)
 ![Task11](Lab05/Task5_4/screenshot2.png)
+
+---
+
+## Lab 6
+
+### Task 1
+***Description:**
+A registration form built with **Vue.js** and **Vuetify** that performs client-side validation before submitting data to a server. Fields include personal details, account credentials, contact information, and address. Validation rules enforce requirements such as letters-only names, minimum password length with special characters, email format, 4-digit postcode, and Australian mobile number format (starting with 04). The form prevents submission until all errors are resolved. A toggle button shows/hides a Terms and Conditions section. On successful submission, form data is posted to a test server which displays the received values.
+
+**Screenshots:**
+![Task1](Lab06/Task6_1/screenshot1.png)
+![Task11](Lab06/Task6_1/screenshot2.png)
+![Task1111](Lab06/Task6_1/screenshot3.png)
+![Task11111](Lab06/Task6_1/screenshot4.png)
