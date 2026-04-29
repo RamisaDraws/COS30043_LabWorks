@@ -137,7 +137,7 @@ A unit information table with "show details" links. Clicking a link shows that u
 ## Lab 6
 
 ### Task 1
-***Description:**
+**Description:**
 A registration form built with **Vue.js** and **Vuetify** that performs client-side validation before submitting data to a server. Fields include personal details, account credentials, contact information, and address. Validation rules enforce requirements such as letters-only names, minimum password length with special characters, email format, 4-digit postcode, and Australian mobile number format (starting with 04). The form prevents submission until all errors are resolved. A toggle button shows/hides a Terms and Conditions section. On successful submission, form data is posted to a test server which displays the received values.
 
 **Screenshots:**
@@ -145,3 +145,21 @@ A registration form built with **Vue.js** and **Vuetify** that performs client-s
 ![Task11](Lab06/Task6_1/screenshot2.png)
 ![Task1111](Lab06/Task6_1/screenshot3.png)
 ![Task11111](Lab06/Task6_1/screenshot4.png)
+
+---
+
+## Lab 7
+
+### Task 1 & 2
+**Description:**
+
+**Posts Component**
+Fetches a list of posts from the JSONPlaceholder API on mount using jQuery's $.getJSON, then renders them as a Bootstrap list group, displaying each post's ID and title.
+
+**Unit Table Component**
+Fetches unit data from a local units.json file on mount using the Fetch API, then renders it as a striped, bordered Bootstrap table showing each unit's code, description, credit points, and type.
+
+**Screenshots:**
+
+![Task1](Lab07/Task7_1/screenshot1.png)
+![Task11](Lab07/Task7_2/screenshot1.png)
