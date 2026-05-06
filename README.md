@@ -163,3 +163,18 @@ Fetches unit data from a local units.json file on mount using the Fetch API, the
 
 ![Task1](Lab07/Task7_1/screenshot1.png)
 ![Task11](Lab07/Task7_2/screenshot1.png)
+
+---
+
+## Lab 8
+
+### Task 1
+**Description:**
+Vue Pagination on top to Task 7.2: Unit table component
+
+**Screenshots:**
+![Task1](Lab08/Task8_1/screenshot1.png)
+![Task11](Lab08/Task8_1/screenshot2.png)
+![Task111](Lab08/Task8_1/screenshot3.png)
+
+
